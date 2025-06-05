@@ -42,24 +42,6 @@ You can visualize the typical API interaction, like creating a post in the follo
 - Node.js (v14+ recommended)
 - npm
 
-### Installation
-
-1. Clone the repository:
-    ```sh
-    git clone <repo-url>
-    cd X-clone
-    ```
-2. Install dependencies:
-    ```sh
-    npm install
-    ```
-
-3. Ensure you have an SQLite database file named `Xdatabase.db` in the project root. The database should have `users` and `posts` tables.
-
-### Configuration
-
-- The JWT secret can be set via the `JWT_SECRET` environment variable. Defaults to `'giga-secret_key_123'`.
-
 ### Running the Server
 
 ```sh

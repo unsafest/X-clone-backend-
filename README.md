@@ -31,7 +31,7 @@ This backend exposes a RESTful API for managing posts. Public endpoints allow an
 2. **User sends requests** to protected endpoints with the JWT in the `Authorization` header.
 3. **Server validates** the JWT and processes the request if valid.
 
-You can visualize the typical API interaction, like creating a post in the following sequence diagram:
+You can visualize the typical API interaction, like creating a post — in the following sequence diagram:
 
 ![REST API Sequence Diagram](https://www.plantuml.com/plantuml/png/TPB1RXCn48RlVefVFXEQ84uhLBKfbo8Y0WsKGwLe6e_QWQsTshD4WFhkZ7Up112vs99dvlj-U_UiA6Nj7bf76qqP5wrmLBUrGzd8bgB2VvvisXGPvyjB3ofr_xjX8I6qlAFCVNrnxG8ftL9X-AltRqKPh-UrP9jpWmAJqmfgi7ntjSB9DXKj9vlCf7mJppkzJrb-a4gA3UPiw8nNNtQwrlILu-bD_EdhoFesXU--WLznKTGJ_-GCQtIBqO0CnD6I6lRDzSfHg_X4hGIiAiS1i3vCnZ2P7vztXNE_h2NKXbePqmx31iDlUzzou5x6RQVzsM7KhjrOmP13Hkn4xr4nw-76OHompaEONY7XNzZmVWrUJ6Uu6CRjEV30fT0TD_3BgjY3_JD8Q333Ku_Xjh0b-NOywaX_EPrYJW4V-B7ZejN0EQSyyklLaQqesImZFWOtAew_ih5dxh_A6Jv6sdzx3dyw5rAAn3ka3DcpjRAhkLhFRB6_-1S0)
 

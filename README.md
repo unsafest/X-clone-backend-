@@ -42,8 +42,23 @@ You can visualize the typical API interaction, like creating a post — in the f
 - Node.js (v14+ recommended)
 - npm
 
+### Installation
+
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/unsafest/X-clone-backend-.git
+   cd X-clone-backend-
+   ```
+
+2. **Install dependencies:**
+   ```sh
+   npm install
+   ```
+
 ### Running the Server
 
 ```sh
 node server.js
 ```
+
+The server will start on the default port (e.g., 4000). You can now use the API endpoints as described above.
